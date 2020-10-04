@@ -1,1 +1,20 @@
-hi use this notes
+Decisions Taken: 
+
+1. Used Selenium - Eclipse 
+2. Used TestNG annotations/framework
+3. Project with the name "computerDB" is created
+4. The base program and the resources are mentioned under the 'src' folder
+5. TestCases are under the 'testcases' folder
+6. The base.java class contains methods to 'intitialise the driver' and 'getscreenshots'
+7. The 'resources' folder contains classes for PageObjects (Create, Edit and Delete) and also a data.properties file
+where the Test Data is defined
+8. computerDBTestCases.java is the main class that contains 3 Test Cases (Create, Edit and Delete computer)
+9. The screenshots of the error/validations messages OR the notifications after Create, Edit and Delete will be 
+stored in the C-drive 'test' folder (in your local machine)
+10. The Test Case 'editComputer' will cover both Retrieve and Edit operations
+11. I have given the priorities (annotations) to the test cases within the computerDBTestCases.java class. 
+Create = Priority-1; Edit = priority-2 and Delete = Priority-3
+12. Please note all the test cases are designed to execute in Chrome broswer
+
+
+
